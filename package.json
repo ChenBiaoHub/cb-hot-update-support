@@ -1,0 +1,19 @@
+{
+  "name": "cb-hot-update-support",
+  "version": "0.0.1",
+  "description": "cbHotUpdateTools",
+  "author": "xiaoheiwu",
+  "main": "main.js",
+  "main-menu": {
+    "i18n:MAIN_MENU.package.title/i18n:cb-hot-update-support.title": {
+      "message": "cb-hot-update-support:open"
+    }
+  },
+  "panel": {
+    "main": "panel/index.js",
+    "type": "dockable",
+    "title": "cbHotUpdateTools",
+    "width": 700,
+    "height": 300
+  }
+}

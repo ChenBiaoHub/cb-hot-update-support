@@ -1,0 +1,6 @@
+<div class="layout horizontal">
+    <h2 class="flex-1">小黑屋热更助手</h2>
+    <ui-button @confirm="onConfirm">作者github主页</ui-button>
+</div>
+<div>此助手会自动加载，编译后会自动添加热更检测代码</div>
+<textarea readonly @change="updateCode()" v-model="newCode"  cols="80" rows="7" style="overflow: hidden">{{hotCode}}</textarea>
